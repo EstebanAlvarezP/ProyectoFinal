@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   background-image: url(../Imagenes/Fondo.jpg);
 }
@@ -48,7 +47,7 @@ h2.titulo {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, auto);
   grid-gap: 10px;
-  width: 1500px; /* Ajusta el ancho del contenedor según tus necesidades */
+  width: 1500px;
   border: 1px solid #f00909;
   padding: 10px;
 }
@@ -129,12 +128,12 @@ button[type=reset] {
 .image-container {
   display: flex;
   justify-content: space-between;
-  width: 600px; /* Ajusta el ancho del contenedor según tus necesidades */
+  width: 600px;
   margin: 0 auto;
 }
 
 a {
-  display: block; /* Convertir enlaces en elementos de bloque para ocupar todo el contenedor */
+  display: block;
 }
 
 .container {
@@ -185,7 +184,7 @@ a {
 
 @media (max-width: 768px) {
   .container {
-    grid-template-columns: 1fr; /* Cambio a una sola columna en vista móvil */
+    grid-template-columns: 1fr;
     width: 360px;
   }
   .form-container {
@@ -285,19 +284,17 @@ a {
 .grid-containerQ {
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 10px; /* Espacio entre elementos */
+  gap: 10px;
   border: 1px solid #ccc;
   padding: 10px;
   background-color: rgba(52, 152, 219, 0.7176470588);
 }
 
-/* Estilos para el título */
 .grid-title {
   font-size: 50px;
   font-weight: bold;
 }
 
-/* Estilos para el texto */
 .grid-text {
   font-size: 50px;
 }/*# sourceMappingURL=main.css.map */
